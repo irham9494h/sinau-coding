@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Pertemuan 2</title>
+
+    <style>
+      .d-flex {
+        display: flex;
+        justify-content: center;
+      }
+      table {
+        width: 50%;
+      }
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .input,
+      select {
+        padding: 3px 10px 3px 10px;
+        height: 30px;
+        width: 90%;
+        border: 2px solid gray;
+        border-radius: 5px;
+      }
+      .input:focus,
+      select:focus,
+      textarea:focus {
+        outline: none;
+        border: 2px solid purple;
+        box-shadow: 0 0 10px #719ece;
+      }
+      textarea {
+        padding: 3px 10px 3px 10px;
+        width: 90%;
+        border: 2px solid gray;
+        border-radius: 5px;
+      }
+      button {
+        padding: 10px 30px;
+        background-color: crimson;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+      }
+
+      button:hover {
+        background-color: darkred;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex">
+      <h1 style="position: absolute">Form Basic</h1>
+      <table style="position: absolute; margin-top: 80px">
+        <tbody>
+          <tr>
+            <td class="text-right">Text :</td>
+            <td><input type="text" class="input" /></td>
+          </tr>
+          <tr>
+            <td class="text-right">Password :</td>
+            <td><input type="password" class="input" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="text-center">
+              <label for="radio-1">Radio 1</label>
+              <input type="radio" id="radio-1" name="in-radio" />
+              <label for="radio-2">Radio 2</label>
+              <input type="radio" id="radio-2" name="in-radio" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="text-center">
+              <label for="ch-1">Checkbox 1</label>
+              <input type="checkbox" name="in-checkbox" id="ch-1" />
+              <label for="ch-2">Checkbox 2</label>
+              <input type="checkbox" name="in-checkbox" id="ch-2" />
+            </td>
+          </tr>
+          <tr>
+            <td class="text-right">Combo Box</td>
+            <td>
+              <select name="" id="">
+                <option value="">Pilihan 1</option>
+                <option value="">Pilihan 2</option>
+                <option value="">Pilihan 3</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="text-right">Text Area</td>
+            <td>
+              <textarea name="" id="" rows="3"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="text-center">
+              <button>Button</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
