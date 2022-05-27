@@ -1,0 +1,168 @@
+body {
+  margin: 0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-header {
+  height: 30px !important;
+}
+
+.header {
+  /* display: flex; */
+}
+
+.header-top {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-bottom {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.content-end {
+  justify-content: end;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.item-center {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1140px;
+}
+
+.brand {
+  padding: 15px 0px;
+}
+
+.brand-text {
+  margin: 0;
+}
+
+.brand-secondary {
+  font-size: 20px !important;
+}
+
+.brand-bold {
+  font-weight: bold;
+}
+
+.brand-img {
+  padding-bottom: 30px;
+  padding-right: 20px;
+  z-index: 10;
+  width: 140px;
+  height: 140px;
+  position: relative;
+  top: -65px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.hero {
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.bg-primary {
+  background-color: #26468f;
+}
+
+.bg-secondary {
+  background-color: #ebebeb;
+}
+
+.bg-light-blue {
+  background-color: #f4f7fd;
+}
+
+.text-primary {
+  color: #26468f;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.btn {
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #2f59ba;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #26468f;
+  border-color: #26468f;
+}
+
+.btn-shadow {
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+.col-half {
+  width: 50% !important;
+}
+
+.benefit {
+}
+
+.benefit-items {
+  padding: 20px;
+  float: left;
+  width: 50% !important;
+}
+
+.benefit-items-right {
+  padding: 20px;
+  float: right;
+  width: 50% !important;
+}
+
+.items-icon {
+  float: left;
+  width: 10% !important;
+}
+
+.items-icon-right {
+  float: right;
+  width: 10% !important;
+}
+
+.items-text {
+  width: 90%;
+}

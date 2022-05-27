@@ -4,115 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tugas Pertemuan 2</title>
-
-    <style>
-      .d-flex {
-        display: flex;
-        justify-content: center;
-      }
-      table {
-        width: 50%;
-      }
-      table,
-      td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        padding: 5px;
-      }
-      .text-right {
-        text-align: right;
-      }
-      .text-center {
-        text-align: center;
-      }
-      .input,
-      select {
-        padding: 3px 10px 3px 10px;
-        height: 30px;
-        width: 90%;
-        border: 2px solid gray;
-        border-radius: 5px;
-      }
-      .input:focus,
-      select:focus,
-      textarea:focus {
-        outline: none;
-        border: 2px solid purple;
-        box-shadow: 0 0 10px #719ece;
-      }
-      textarea {
-        padding: 3px 10px 3px 10px;
-        width: 90%;
-        border: 2px solid gray;
-        border-radius: 5px;
-      }
-      button {
-        padding: 10px 30px;
-        background-color: crimson;
-        color: white;
-        border: 0;
-        border-radius: 5px;
-      }
-
-      button:hover {
-        background-color: darkred;
-        cursor: pointer;
-      }
-    </style>
+    <title>Tugas Pertemuan 3</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="d-flex">
-      <h1 style="position: absolute">Form Basic</h1>
-      <table style="position: absolute; margin-top: 80px">
-        <tbody>
-          <tr>
-            <td class="text-right">Text :</td>
-            <td><input type="text" class="input" /></td>
-          </tr>
-          <tr>
-            <td class="text-right">Password :</td>
-            <td><input type="password" class="input" /></td>
-          </tr>
-          <tr>
-            <td colspan="2" class="text-center">
-              <label for="radio-1">Radio 1</label>
-              <input type="radio" id="radio-1" name="in-radio" />
-              <label for="radio-2">Radio 2</label>
-              <input type="radio" id="radio-2" name="in-radio" />
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2" class="text-center">
-              <label for="ch-1">Checkbox 1</label>
-              <input type="checkbox" name="in-checkbox" id="ch-1" />
-              <label for="ch-2">Checkbox 2</label>
-              <input type="checkbox" name="in-checkbox" id="ch-2" />
-            </td>
-          </tr>
-          <tr>
-            <td class="text-right">Combo Box</td>
-            <td>
-              <select name="" id="">
-                <option value="">Pilihan 1</option>
-                <option value="">Pilihan 2</option>
-                <option value="">Pilihan 3</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td class="text-right">Text Area</td>
-            <td>
-              <textarea name="" id="" rows="3"></textarea>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2" class="text-center">
-              <button>Button</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="top-header bg-primary"></div>
+    <div class="header">
+      <div class="header-top bg-secondary">
+        <div class="container flex content-end item-center">
+          <button class="btn bg-primary text-white">
+            <svg
+              style="width: 18px; padding-right: 5px"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+            Kembali ke Pilih Kartu
+          </button>
+        </div>
+      </div>
+      <div class="header-bottom bg-white">
+        <div class="container flex">
+          <img class="brand-img" src="assets/logo.png" alt="brand" />
+          <div class="brand">
+            <p class="brand-text brand-secondary upper text-primary">
+              Dapatkan Asuransi Gratis dari
+              <span class="upper brand-bold">AXA LIFE INDONESIA</span>
+            </p>
+            <h1 class="brand-text text-lg upper text-primary">
+              UNTUK PEMEGANG KARTU KREDIT
+            </h1>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="hero">
+      <img class="hero-image" src="assets/slides.png" alt="hero" />
+    </div>
+
+    <section id="benefit">
+      <h1 class="section-title">
+        Keuntungan Mendaftar
+        <span class="text-primary"> &nbsp; AXA Life Indonesia &nbsp;</span> di
+        Pilihkartu
+      </h1>
+      <div class="flex content-center">
+        <div class="container row flex">
+          <div class="benefit-items">
+            <div class="row flex">
+              <p class="items-text-right">
+                Pendaftar yang lolos verifikasi dari Tim AXA berhak mendapat
+                perlindungan Asuransi Kecelakaan diri selama 3 bulan.
+              </p>
+              <div class="items-icon-right">
+                <img src="assets/icon_1.png" alt="4" />
+              </div>
+            </div>
+          </div>
+          <div class="benefit-items">
+            <div class="row">
+              <div class="items-icon">
+                <img src="assets/icon_4.png" alt="4" />
+              </div>
+              <p class="items-text">
+                Pendaftar yang lolos verifikasi dari Tim AXA berhak mendapat
+                perlindungan Asuransi Kecelakaan diri selama 3 bulan.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="items-icon">
+                <img src="assets/icon_5.png" alt="4" />
+              </div>
+              <p class="items-text">
+                Tanpa ada masa tunggu, perlindungan yang didapatkan dimulai
+                sejak polis aktif.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="items-icon">
+                <img src="assets/icon_6.png" alt="4" />
+              </div>
+              <p class="items-text">
+                Bukan penawaran melainkan pemberian secara cuma-cuma kepada
+                nasabah ter-registrasi via Pilihkartu.com yang sudah memiliki
+                kartu kredit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
