@@ -166,3 +166,18 @@ body {
 .items-text {
   width: 90%;
 }
+
+.angkot-prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.angkot {
+  padding: 20px;
+}
+.angkot-number {
+  text-align: center;
+}
+.angkot-img {
+  width: 150px;
+}
